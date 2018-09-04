@@ -1,0 +1,27 @@
+{   
+  "name": "Image Remover", 
+  "version": "1.0", 
+  "description": "Image Remover for google image search", 
+  "author": "Alan Ng",
+  "manifest_version": 2,
+"permissions": ["activeTab", "declarativeContent"],
+"icons": {
+  "16": "images/icon.png",
+  "32": "images/icon.png",
+  "48": "images/icon.png",
+  "128": "images/icon.png"
+},
+"page_action": { 
+  "default_title": "Image Remover",
+  "default_icon": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  }
+},
+"background": {
+    "scripts": ["script.js"],
+    "persistent": false
+  }
+}
